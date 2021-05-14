@@ -1,0 +1,34 @@
+{
+  "name": "postman2swagger",
+  "version": "1.0.1",
+  "description": "Tooling to convert a Postman collection to a Swagger (v2) or OpenAPI (v3) file",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvonhasselbach/postman2swagger.git"
+  },
+  "keywords": [
+    "postman",
+    "swagger",
+    "openapi"
+  ],
+  "author": "mvonhasselbach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvonhasselbach/postman2swagger/issues"
+  },
+  "homepage": "https://github.com/mvonhasselbach/postman2swagger#readme",
+  "dependencies": {
+    "api-spec-converter": "^2.12.0",
+    "jsonpath": "^1.1.1",
+    "lodash": "^4.17.21",
+    "postman2openapi": "*",
+    "yargs": "13.2"
+  }
+}
